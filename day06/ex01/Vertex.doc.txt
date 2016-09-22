@@ -1,0 +1,10 @@
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles x, y, z, w varibles.
+
+An instance can be contructed from x, y, z values and also color and a u value
+new Vertex( array( 'x' => 12, 'y' => 21, 'z' => '543' ) );
+
+you can also add a 'u' element and 'color' element
+
+new Vertex( array( 'x' => 12, 'y' => 21, 'z' => '543', color => rgb, 'u' => '321' ) );
+---------------------------------------------------------------------- Vertex ->

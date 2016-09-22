@@ -1,0 +1,8 @@
+ table {table-layout: fixed}
+.box {border: 1px solid black}
+.nbr {font-size: smaller; text-align: right}
+.anbr {font-size: smaller; text-align: left}
+.cols {text-align: center; width: 60px}
+#pic {font-size: xx-large; text-align: center}
+#head {font-size: xx-large; text-align: center}
+h1{text-align: center; font-size: larger}

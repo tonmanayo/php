@@ -1,0 +1,40 @@
+<- Vector ----------------------------------------------------------------------
+The Vector class handles Vector calculations.
+
+An instance can be constructed from a Vector class:
+
+The class provides the following methods :
+
+    public function magnitude()
+     the formula is sqrt((X)^2 + (Y)^2 + (Z)^2)
+
+    public function normalize()
+        formula is:
+        'x' = (X / magnitude), 'y' = (Y / magnitude), 'z' = (Z / magnitude);
+
+    public function add(Vector $rhs)
+        formula is:
+        'x' = X + rhs->X, 'y' = y + rhs->y, 'z' = z + rhs->z
+    public function sub(Vector $rhs)
+        formula is:
+       'x' = X - rhs->X, 'y' = y - rhs->y, 'z' = z - rhs->z
+
+    public function opposite()
+    formula is:
+            the inverse of x y and z;
+    public function scalarProduct($k)
+        'x' = X * $k, 'y' = Y * $k, 'z' => Z * $k;
+    public function dotProduct(Vector $rhs)
+    formula is:
+        (X * $rhs->X) + ($this->getY * $rhs->Y) + (Z * $rhs->Z);
+    public function cos(Vector $rhs)
+    formula is:
+        dotProduct($rhs) / magnitude * $rhs->magnitude);
+    }
+    public function crossProduct(Vector $rhs){
+        $z = $this->_x * $rhs->getY() - $this->_y * $rhs->getX();
+        $x = $this->_y * $rhs->getZ() - $this->_z * $rhs->getY();
+        $y = $this->_z * $rhs->getX() - $this->_x * $rhs->getZ();
+        $result = 'x' = $x, 'y' = $y, 'z' = $z));
+    }
+---------------------------------------------------------------------- Vector ->
